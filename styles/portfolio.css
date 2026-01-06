@@ -20,12 +20,25 @@ font.open-sans {
   font-size: 20px;
   font-weight: bold;
   color: white;
-  cursor:col-resize;
+  cursor:pointer;
 
 }
 
-/* main style */
+.section-heading {
+  text-align: center;
+}
 
+.section-heading h2 {
+  font-size: 35px;
+  margin-bottom: 30px;
+}
+
+.section-heading p{
+  font-size: 20px;
+  margin-bottom: 90px;
+}
+
+/* main style */
 
 header {
   background-color:antiquewhite;
@@ -95,4 +108,28 @@ max-width: 585px;
 #banner .banner-image {
   width: 540px;
   vertical-align: ;
+}
+
+#about {
+  padding-top: 130px;
+}
+
+#about .about-container{
+  width: 71%;
+  max-width: 1140px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: beige;
+  padding: 131px 156px;
+
+}
+
+#about .about-container .about-info {
+  display: flex;
+  justify-content: space-around;
+}
+
+.about-info .info-card p{
+  font-size: 20px;
+  color: #FD6E0A
 }
