@@ -1,14 +1,3 @@
-/* body {
-  font-family: 'Times New Roman', Times, serif;
-  background-color: aqua;
-}
-  */
-
-*{
-
-  margin: 1 px;
-  padding: 0px;
-}
 
 .logo h2{
   font-size: 45px;
@@ -31,6 +20,7 @@ font.open-sans {
   font-size: 20px;
   font-weight: bold;
   color: white;
+  cursor:col-resize;
 
 }
 
@@ -39,11 +29,13 @@ font.open-sans {
 
 header {
   background-color:antiquewhite;
+  background: url(../images/developer.png), url(../images/header_bg.png), antiquewhite;
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
 }
 nav {
   width: 70%;
   max-width: 1140px;
-  border: 1px, solid, black;
   margin: 0px auto;
   display: flex;
   justify-content: space-between;
@@ -61,4 +53,46 @@ nav .menu {
   font-size: 20px;
   color: #474747;
   text-decoration: none;
+}
+
+#banner {
+
+  margin: 47px 38px 0px 230px;
+  display: flex;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#banner .banner-content {
+max-width: 585px;
+}
+
+#banner .banner-content H2{
+  font-size: 45px;
+  font-weight: 600px;
+  color: #474747;
+  margin-bottom: 5px;
+
+}
+
+#banner .banner-content H1{
+  font-size: 85px;
+  font-weight: bold;
+  color: #181811;
+  margin-bottom: 20px;
+  
+}
+
+#banner .banner-content p{
+  font-size: 30px;
+  font-weight: normal;
+  color: #757575;
+  margin-bottom: 20px;
+  
+}
+
+#banner .banner-image {
+  width: 540px;
+  vertical-align: ;
 }
