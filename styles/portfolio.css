@@ -142,6 +142,7 @@ max-width: 585px;
 .skills-container {
   width: 71%;
   margin: 0 auto;
+  background-color: #FD6E0A;
 }
 
 #skills .skills-container .skill-box {
